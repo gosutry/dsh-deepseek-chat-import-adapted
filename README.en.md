@@ -40,7 +40,7 @@ This repository does not fork the upstream monorepo (~380 MB, 59 subdirectories)
 - Package version: `0.2.1-rc.3-adapted` (matches the Release tag; the supported range is expressed by `peerDependencies`)
 - Verified on `0.2.2-rc.1`: the entry appears in the sidebar **More** menu; the dialog, the Workspace dropdown and a real `deepseek_data-*.zip` import all work
 - `lib/client.js` sha256: `51b1048253c32c46b34bd83696c630c12d87ea6cb31b0b511cf343b251624de2`
-- Release asset: `deepseek-ai-dsh-deepseek-chat-import-0.2.1-rc.3-adapted.tgz`, sha256 `b41934715fa3546624a24b1b5d7a80bbc5ab2d67748cc46d938dfe17f5ec3f6f`
+- Release asset: `deepseek-ai-dsh-deepseek-chat-import-0.2.1-rc.3-adapted.tgz`; sha256 in the [Release notes](https://github.com/gosutry/dsh-deepseek-chat-import-adapted/releases/tag/v0.2.1-rc.3-adapted) (this README ships inside the tarball, so a hard-coded hash would point at the package itself)
 
 ## Installation
 
