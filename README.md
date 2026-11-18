@@ -20,7 +20,7 @@ clone 下来按下面的安装方法接入即可，不需要构建、不需要�
 | 上游仓库 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) |
 | 上游 tag | [`dsh-v0.2.2-rc.3`](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3) |
 | 引入提交 | [`b8c33a150`](https://github.com/deepseek-ai/deepseek-harness/commit/b8c33a150) |
-| 合并 PR | [#8342「导入 DeepSeek 官网对话导出为会话」](https://github.com/deepseek-ai/deepseek-harness/pull/8342) |
+| 合并 PR | #8342「导入 DeepSeek 官网对话导出为会话」（上游仓库未开放 PR 页面，编号见提交标题，故不设链接） |
 | 上游目录 | [`packages/experimental/deepseek-chat-import`](https://github.com/deepseek-ai/deepseek-harness/tree/dsh-v0.2.2-rc.3/packages/experimental/deepseek-chat-import) |
 | 上游包名 | [`@deepseek-ai/dsh-deepseek-chat-import`](https://www.npmjs.com/package/@deepseek-ai/dsh-deepseek-chat-import) · [registry 元数据](https://registry.npmjs.org/@deepseek-ai/dsh-deepseek-chat-import) |
 | 许可证 | [MIT](https://github.com/deepseek-ai/deepseek-harness/blob/dsh-v0.2.2-rc.3/LICENSE)（副本见 [LICENSE](LICENSE)） |

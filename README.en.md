@@ -20,7 +20,7 @@ English | [中文](README.md)
 | Upstream repository | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) |
 | Upstream tag | [`dsh-v0.2.2-rc.3`](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3) |
 | Introducing commit | [`b8c33a150`](https://github.com/deepseek-ai/deepseek-harness/commit/b8c33a150) |
-| Merged PR | [#8342 "import DeepSeek website chat exports as Sessions"](https://github.com/deepseek-ai/deepseek-harness/pull/8342) |
+| Merged PR | #8342 "import DeepSeek website chat exports as Sessions" (upstream repo has pull requests disabled; the number appears only in the commit subject, so no link) |
 | Upstream directory | [`packages/experimental/deepseek-chat-import`](https://github.com/deepseek-ai/deepseek-harness/tree/dsh-v0.2.2-rc.3/packages/experimental/deepseek-chat-import) |
 | Upstream package name | [`@deepseek-ai/dsh-deepseek-chat-import`](https://www.npmjs.com/package/@deepseek-ai/dsh-deepseek-chat-import) · [registry metadata](https://registry.npmjs.org/@deepseek-ai/dsh-deepseek-chat-import) |
 | License | [MIT](https://github.com/deepseek-ai/deepseek-harness/blob/dsh-v0.2.2-rc.3/LICENSE) (local copy in [LICENSE](LICENSE)) |
