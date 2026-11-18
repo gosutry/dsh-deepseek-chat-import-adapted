@@ -1,6 +1,6 @@
 # dsh-deepseek-chat-import-adapted
 
-把 DeepSeek Harness 官方实验插件 **DeepSeek 会话导入**（rc.3 内置）适配到 **0.2.2-rc.1** 运行时。
+把 DeepSeek Harness 官方实验插件 **DeepSeek 会话导入**（`0.2.2-rc.3` 起官方内置）适配到更早的运行时：**`>=0.2.1-rc.3 <0.2.2-rc.3`**。
 
 **本仓库根目录就是插件本体**：`package.json`、`lib/`、`locale/`、`cordis.patch.yml` 都在顶层，
 clone 下来按下面的安装方法接入即可，不需要构建、不需要装 npm 依赖。
