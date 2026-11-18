@@ -1,7 +1,7 @@
 {
   "name": "@deepseek-ai/dsh-deepseek-chat-import",
   "description": "Import DeepSeek chat exports as stored Sessions (rc.1-adapted build of the rc.3 experimental plugin)",
-  "version": "0.2.2-adapted",
+  "version": "0.2.1-rc.3-adapted",
   "icon": "./icon.svg",
   "publishConfig": {
     "access": "public"

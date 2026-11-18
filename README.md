@@ -35,7 +35,7 @@ clone 下来按下面的安装方法接入即可，不需要构建、不需要�
   - 上限：`0.2.2-rc.3` 起官方已内置该插件，无需安装
   - 实测运行：仅在 `0.2.2-rc.1` 上真跑过；`0.2.1-rc.3`~`rc.5`、`0.2.2-rc.2` 只核对过依赖符号齐全，**未实测运行**
 - 代码来源：上游 0.2.2-rc.3（`packages/experimental/deepseek-chat-import`）
-- 包版本：`0.2.2-adapted`（版本号只表示「基于 0.2.2 系列的适配版」，支持范围以 peerDependencies 为准）
+- 包版本：`0.2.1-rc.3-adapted`（与 Release tag 一致；支持范围以 peerDependencies 为准）
 - 在 `0.2.2-rc.1` 上实测：入口出现在侧栏「更多」菜单，弹窗、工作区下拉可用，真实 `deepseek_data-*.zip` 导入成功
 - `lib/client.js` sha256：`51b1048253c32c46b34bd83696c630c12d87ea6cb31b0b511cf343b251624de2`
 
