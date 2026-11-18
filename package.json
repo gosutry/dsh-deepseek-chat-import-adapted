@@ -1,0 +1,90 @@
+{
+  "name": "@deepseek-ai/dsh-deepseek-chat-import",
+  "description": "Import DeepSeek chat exports as stored Sessions (rc.1-adapted build of the rc.3 experimental plugin)",
+  "version": "0.2.2-adapted",
+  "icon": "./icon.svg",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+    "directory": "packages/experimental/deepseek-chat-import"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./lib/types/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./remote": {
+      "types": "./lib/typert.remote-client.d.ts",
+      "default": "./lib/typert.remote-client.js"
+    },
+    "./typert": {
+      "types": "./lib/typert.host.d.ts",
+      "default": "./lib/typert.host.js"
+    },
+    "./types": {
+      "types": "./lib/types/types.d.ts"
+    },
+    "./src/*": "./src/*",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "icon.svg",
+    "locale/*.json",
+    "cordis.patch.yml",
+    "lib/index.js",
+    "lib/client.js",
+    "lib/typert.host.js",
+    "lib/typert.remote-client.js",
+    "lib/*.d.ts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "zod": "4.6.6"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0",
+    "@deepseek-ai/dsh-brand": ">=0.2.1-rc.3 <0.2.2-rc.3",
+    "@deepseek-ai/dsh-llm": ">=0.2.1-rc.3 <0.2.2-rc.3",
+    "@deepseek-ai/dsh-session": ">=0.2.1-rc.3 <0.2.2-rc.3",
+    "@deepseek-ai/dsh-session-title": ">=0.2.1-rc.3 <0.2.2-rc.3",
+    "@deepseek-ai/dsh-tool-web": ">=0.2.1-rc.3 <0.2.2-rc.3",
+    "@deepseek-ai/dsh-typert-protocol": ">=0.2.1-rc.3 <0.2.2-rc.3",
+    "@deepseek-ai/schemastery": "~3.19.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remote-access",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "bundle": "tsdown",
+    "watch": "tsdown --watch"
+  },
+  "cordis": {
+    "entry": "lib/index.js"
+  }
+}
